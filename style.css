@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: aliceblue;
+    
+}
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    text-align: justify;
+}
+.shut{
+    color: brown;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 200;
+    
+}
+
+.fast-mnu{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-left: 10px;
+}
+.fast-mnu:hover{
+    background-color: antiquewhite;
+    color: brown;
+    padding: 10px;
+}
+
+
+.second-mnu{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin-left: 5px;
+    
+}
+.second-mnu:hover{
+    background-color: crimson;
+    color: azure;
+    padding: 10px;
+}
+
+.sam{
+    background-image: url(./image/man.jpg);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.box{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+}
+.para-2{
+    font-size: 20px;
+
+}
+.box-2{
+    text-align: center;
+   padding-top: 65px;
+    
+}
+.btn{
+    background-color: red;
+    color: white;
+    width: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid red;
+    
+   cursor: pointer;
+}
+.btn:hover{
+    color: dimgray;
+}
+
+.bri-title{
+    font-size: 25px;
+    padding-top: 55px;
+    margin:0px 40px 0px 40px;
+}
+
+.third-sec{
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+   
+   
+}
+.fast-box{
+    text-align: center;
+    background-color:#fffffffd;
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(210, 205, 205);
+    outline: 3px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px ;
+}
+
+.card-pic{
+    width: 80px;
+    padding-top: 30px;
+}
+
+.cont-title{
+    padding-top: 10px;
+}
+.cont-para{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.forth-sec{
+    margin-top: 100px;
+   
+}
+
+.desk-pic{
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
+.forth-sec-box{
+    text-align: center;
+}
+
+.fifth-sec{
+ margin-top: 150px;
+ margin-left: 40px;
+ margin-right: 40px;
+ margin-bottom: 150px;
+}
+.bg-image{
+    background-image: url(./image/mind.jpg);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box-fifth{
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.demo{
+   background-color: teal;
+    color: white;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid teal;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 60px;
+    
+    cursor: pointer;
+}
+.demo:hover{
+    color: darkkhaki;
+}
+
+.business-title{
+    margin-bottom: 15px;
+}
+
+.get{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.sixth-sec{
+margin-left: 5px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 10px;
+align-items: center;
+}
+
+.six-sec-box{
+    
+    
+}
+.six-sec-pic{
+width: 400px;
+height: 250px;
+}
+
+.six-sec-title{
+
+}
+.six-sec-para{
+font-size: 15px;
+margin-top: 10px;
+
+}
+
+.seven-sec{
+margin-top: 100px;
+
+}
+
+.seven-sec-bg{
+    background-image: url(./image/3d.jpg);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    display: flex;
+    
+    
+}
+
+.seven-box1{
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+
+}
+.cr-para{
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.seven-box2{
+margin-left: 150px;
+}
+.sign{
+    color: blue;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.conti{
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+    background-color: coral;
+    border-radius: 40px;
+    padding: 10px;
+    width: 250px;
+}
+.conti:hover{
+    color: blueviolet;
+}
